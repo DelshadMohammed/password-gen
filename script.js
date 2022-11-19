@@ -1,4 +1,5 @@
 // Assignment code here
+
 //message prompt for number
 var length = Number(
     prompt("User Please Enter A Password Length Between 8 And 128")
@@ -19,7 +20,7 @@ function generatePassword() {
   };
   var charSet = charSets[charType.toLowerCase()] || charSets.lowercase;
   var retVal = "";
-  //for loop used for random numbers and characters
+  //for loop used to generate random numbers and characters
   for (var i = 0; i < length; i++) {
     retVal += charSet.charAt(Math.floor(Math.random() * charSet.length));
   }

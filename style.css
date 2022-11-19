@@ -1,3 +1,4 @@
+/* universal styling */
 *,
 *::before,
 *::after {
@@ -22,14 +23,14 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/* header styling */
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/* card styling */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -41,7 +42,7 @@ header {
   max-width: 800px;
   padding: 30px 40px;
 }
-
+/* card header styling */
 .card-header::after {
   content: " ";
   display: block;
@@ -49,11 +50,11 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
-
+/* card body height */
 .card-body {
   min-height: 100px;
 }
-
+/* card footer text alignment and styling start */
 .card-footer {
   text-align: center;
 }
@@ -71,7 +72,9 @@ header {
   display: block;
   clear: both;
 }
+/* card footer text alignment and styling finish */
 
+/* button styling */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +99,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* password placeholder styling */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +120,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* media queries */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
