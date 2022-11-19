@@ -1,6 +1,6 @@
 # Password Gen Random
 
-Password Gen Random is software which generates a users personlized passwords.Giving users ultimate control in characters and length.
+Password Gen Random is software which generates a users personlized passwords. Giving users ultimate control in character types and length of passwords.
 
 ## Languages Used:
 
