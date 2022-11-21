@@ -1,16 +1,13 @@
-// Assignment code here
+//Assignment code here
 
-//message prompt for number
-var length = Number(
-    prompt("User Please Enter A Password Length Between 8 And 128")
-  ),
-  //prompt for special charchters
-  charType = prompt(
-    "User Please Enter A Character Type: special, numeric, uppercase, lowercase."
-  ),
-  passwordText = generatePassword();
-// function to generate random password
 function generatePassword() {
+  var length = Number(
+    prompt("User Please Enter A Password Length Between 8 And 128")
+  );
+  //prompt for special charchters
+  var charType = prompt(
+    "User Please Enter A Character Type: special, numeric, uppercase, lowercase."
+  );
   // my object literal for character sets to be used in gen
   var charSets = {
     lowercase: "abcdefghijklmnopqrstuvwxyz",
@@ -39,6 +36,7 @@ var charSets = {
 
 // Write password to the #password input
 function writePassword() {
+  generateBtn.style.backgroundColor = "teal";
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
